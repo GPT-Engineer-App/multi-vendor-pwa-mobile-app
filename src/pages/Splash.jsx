@@ -1,3 +1,4 @@
+import { Loader2 } from 'lucide-react';
 import React from 'react';
 
 const Splash = () => {
@@ -22,7 +23,10 @@ const Splash = () => {
        opacity: 0.3
       }}
       ></div>
+      <div>
       <img src="/assets/images/splash_logo.png" alt="Logo" className="z-10" />
+      <h2 className='text-white text-center' style={{ fontWeight: '900'}}>Customer</h2>
+      </div>
     </div>
   );
 };
